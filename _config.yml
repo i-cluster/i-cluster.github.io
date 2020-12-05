@@ -1,0 +1,46 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true
+
+# Setup
+title:            I-Log
+tagline:          '상상하는 개발자의 로그'
+description:      '블로그 공사중...<br> Github은 <a href="https://github.com/i-cluster" target="_blank">여기로</a>'
+url:              ''
+baseurl:          ''
+
+author:
+  name:           'Junhee'
+  url:            ''
+
+paginate:         5
+
+# Custom vars
+version:          3.0.0
+
+github:
+  repo:           https://github.com/poole/hyde
