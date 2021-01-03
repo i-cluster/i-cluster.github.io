@@ -35,6 +35,13 @@
  * Update the foundational and global aspects of the page.
  */
 
+@font-face {
+  font-family: 'NanumSquareRound';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -48,13 +55,13 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'NanumSquareRound';
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 @media (min-width: 38em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
